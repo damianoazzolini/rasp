@@ -27,6 +27,7 @@ python3 rasp --help
 
 ## Examples
 ```
+$ python3 rasp.py --filename="a.tmp"
 rasp: type 'exit' or 'e' to exit
 > in
 Input mode, type 'exit' or 'e' to exit
@@ -42,7 +43,7 @@ bye
 ```
 $ cat a.tmp 
 0{a}1.
-$ rasp.py --filename="a.tmp"
+$ python3 rasp.py --filename="a.tmp"
 rasp: type 'exit' or 'e' to exit
 > in
 Input mode, type 'exit' or 'e' to exit
@@ -55,6 +56,7 @@ Input mode, type 'exit' or 'e' to exit
 3: a b
 ```
 ```
+$ python3 rasp.py --filename="a.tmp"
 rasp: type 'exit' or 'e' to exit
 > in
 Input mode, type 'exit' or 'e' to exit

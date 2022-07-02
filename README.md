@@ -18,7 +18,11 @@ Interactive mode options:
 ```
 
 ## Installation
-git clone 
+```
+$ git clone https://github.com/damianoazzolini/rasp
+cd rasp/
+python3 rasp --help
+```
 
 ## Examples
 ```

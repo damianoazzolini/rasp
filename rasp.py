@@ -18,10 +18,10 @@ Interactive mode options:
 - solve(n) | s(n): compute n answer sets
 - cautious | c: compute cautious consequences
 - brave | b: compute brave consequences
-- clear: delete the content of the file from memory
-- exit | e: exits (for input mode and program)
+- clear: delete the content of the file passed as input from rasp memory
 - what | ?: prints what is currently in memory
-- dump: prints the current session on a file called 'rasp_session.lp'
+- dump: prints the current session into a file called 'rasp_session.lp'
+- exit | e: exits (for input mode and program)
 '''
 
 def ctrl_c_handler(signum, frame):  # type: ignore

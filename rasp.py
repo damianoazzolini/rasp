@@ -70,7 +70,6 @@ if __name__ == "__main__":
     signal.signal(signal.SIGINT, ctrl_c_handler)  # type: ignore
 
     stop_loop = False
-    in_writing = False
     lines : 'list[str]' = []
 
     command_parser = argparse.ArgumentParser(

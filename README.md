@@ -27,7 +27,7 @@ python3 rasp --help
 
 ## Examples
 ```
-$ python3 rasp.py --filename="a.tmp"
+$ python3 rasp.py
 rasp: type 'exit' or 'e' to exit
 > in
 Input mode, type 'exit' or 'e' to exit

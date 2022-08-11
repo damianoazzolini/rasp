@@ -129,6 +129,8 @@ if __name__ == "__main__":
                 f.close()
             except:
                 print('Cannot open rasp_session.lp to write the current session')
+        elif command == 'help' or command == 'h':
+            print(options)
         elif command == 'exit' or command == 'e':
             print('bye')
             stop_loop = True
